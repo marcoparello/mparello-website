@@ -1,0 +1,115 @@
+/* Import the Lexend font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+/* CSS to center headings */
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+/* CSS to align p */
+p{
+  text-align: left;
+}
+/* CSS to center dt */
+dt{
+  text-align:center;
+}
+/*CSS to align dd */
+dd{
+  text-align:left;
+}
+/* CSS for the body */
+body {
+  color: white;
+  font-family: Lexend;
+  background-image: url(background.png);
+  background-repeat:no-repeat;
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+/* CSS for the footer */
+footer{
+  margin-top: auto;
+  width:100%;
+  color: white;
+  font-size: 15px;
+  background: rgba(0,0,0,0.5); /* black with a 50% opacity */
+  border: 2px rgba(255,255,255,0.3);
+  border-radius: 10px;
+  text-align: center;
+}
+/* CSS for the navbar */
+navbar{
+  padding:5px;
+  background: rgba(0,0,0,0.5); /* black with a 50% opacity */
+  border: 2px rgba(255,255,255,0.3);
+  border-radius: 10px;
+  text-align: right;
+  color: black;
+  font-size: 15px;
+  display:flex;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  float: left;
+  display: block;
+}
+
+li a{
+  display:block;
+  text-align:center;
+  padding: 14px 16px;
+}
+li a:hover{
+  background-color: rgba(135,206,250,0.3);/* Light Sky Blue */
+  border: 2px rgb(135,206,250);
+  border-radius: 20px;
+}
+
+/* CSS for links */
+
+a:link{
+  color:white;
+  text-decoration: none;
+  /* color transitions for when hovering on the link */
+    transition:         color 1s;
+}
+
+a:visited{
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff8c00; /* Dark Orange */
+}
+
+/* CSS for the flex container */
+flex-container{
+  display:flex;
+  flex-wrap: wrap;
+ 
+
+}
+
+
+
+flex-container-text {
+  padding: 10px;
+  margin: 10px;
+  background: rgba(0,0,0,0.5); /* black with a 50% opacity */
+  border: 2px rgba(255,255,255,0.3);
+  border-radius: 10px;
+  flex: 200px;
+
+}
